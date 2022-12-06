@@ -21,7 +21,7 @@ def find_version(*file_paths):
 
 
 setup(
-    name='django-revproxy',
+    name='django-revproxy-fix',
     description='Yet another Django reverse proxy application.',
     version=find_version('revproxy/__init__.py'),
     long_description=read('README.rst'),
@@ -35,9 +35,9 @@ setup(
     },
     tests_require=['mock', 'diazo', 'lxml>=3.4'],
     test_suite="tests.run.runtests",
-    author='Sergio Oliveira',
-    author_email='sergio@tracy.com.br',
-    url='https://github.com/TracyWebTech/django-revproxy',
+    author='napoler2008',
+    author_email='napoler2008@gmail.com',
+    url='https://github.com/napoler/django-revproxy',
     license='MPL v2.0',
     classifiers=[
         'Development Status :: 5 - Production/Stable',
